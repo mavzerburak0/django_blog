@@ -1,1 +1,1 @@
-# django_blog
+A test blog app created with Django
