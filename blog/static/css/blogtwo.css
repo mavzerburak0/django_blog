@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+ }
+
+#page-wrap {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post {
+    margin-top: 8vh;
+}
+
+h1 {
+    font-family: 'Jua', sans-serif;
+    font-size: 3.5em;
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #996633;
+}
+
+.about {
+    margin-top: 4vh;
+}
+
+.post-summary {
+    font-size: 1.5em;
+}
+
+.fa {
+    text-align:center;
+    padding: 0 .2em 0 0;
+    font-size: 2.2em;
+    text-decoration: none;
+}
+
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+.fa-linkedin-square:hover {
+    color: #0077B5;
+}
+
+.fa-github-square:hover {
+    color: #D4D5D6;
+}
+
+.about {
+    font-family: 'Jua', sans-serif;
+}
