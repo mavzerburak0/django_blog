@@ -8,7 +8,7 @@
             {% for item in items %}
                 <div class="col-xs-6">
                     <h4>{{ item.title }}</h4>
-                    <img src="{{ item.image.url }}">
+                    <img class="portfolio-img" src="{% static 'images/portfolio-bg.jpg' %}">
                     <p>{{ item.text|truncatechars:100 }}</p>
                 </div>
             {% endfor %}
