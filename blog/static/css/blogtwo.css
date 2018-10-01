@@ -1,25 +1,26 @@
 body {
-  text-align: center;
- }
+    text-align: center;
+}
 
 #page-wrap {
-  text-align: left;
-  max-width: 700px;
-  margin: 0 auto;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
 }
+
 
 .post {
     margin-top: 8vh;
 }
 
 h1 {
+    color:black;
     font-family: 'Jua', sans-serif;
     font-size: 3.5em;
 }
 
 a {
     color: black;
-
 }
 
 a:hover {
@@ -52,8 +53,4 @@ a:hover {
 
 .fa-github-square:hover {
     color: #D4D5D6;
-}
-
-.about {
-    font-family. 
 }
