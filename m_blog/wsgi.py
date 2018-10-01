@@ -14,3 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'm_blog.settings')
 
 application = get_wsgi_application()
+
+from whitenoise.django import DjangoWhiteNoise
+application = DjangoWhiteNoise(application)
+
