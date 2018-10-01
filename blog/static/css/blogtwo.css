@@ -15,7 +15,6 @@ body {
 
 h1 {
     color:black;
-    font-family: 'Jua', sans-serif;
     font-size: 3.5em;
 }
 
@@ -30,6 +29,10 @@ a:hover {
 
 .about {
     margin-top: 4vh;
+}
+
+h4, h1 {
+    font-family: 'Jua', sans-serif;
 }
 
 .post-summary {
