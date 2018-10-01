@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'm_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mavzerb'),
+        'NAME': 'mavzerb',
         'USER': 'name',
         'PASSWORD': '',
         'HOST': 'localhost',
