@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class="portfolio-container">
+        <div class="row">
+            {% for item in items %}
+                <div class="col-xs-6">
+                    <h4>{{ item.title }}</h4>
+                    <img src="{{ item.image.url }}">
+                    <p>{{ item.text|truncatechars:100 }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
