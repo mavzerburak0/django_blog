@@ -39,6 +39,7 @@ img {
 h1 {
     color:black;
     font-size: 3.5em;
+    font-family: 'Jua', sans-serif;
 }
 
 a {
@@ -54,9 +55,6 @@ a:hover {
     margin-top: 4vh;
 }
 
-h4, h1 {
-    font-family: 'Jua', sans-serif;
-}
 
 .post-summary {
     font-size: 1.5em;
